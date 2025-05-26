@@ -75,3 +75,32 @@ bun run preview
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 # nuxt-boiler-plate-3
 # ai-social-v1
+
+```
+boiler-plate-nuxt
+├─ app.vue
+├─ assets
+│  └─ css
+│     └─ tailwind.css
+├─ components
+│  └─ ui
+│     └─ button
+│        ├─ Button.vue
+│        └─ index.ts
+├─ components.json
+├─ eslint.config.mjs
+├─ lib
+│  └─ utils.ts
+├─ nuxt.config.ts
+├─ package.json
+├─ pnpm-lock.yaml
+├─ public
+│  ├─ favicon.ico
+│  └─ robots.txt
+├─ README copy.md
+├─ README.md
+├─ server
+│  └─ tsconfig.json
+└─ tsconfig.json
+
+```
