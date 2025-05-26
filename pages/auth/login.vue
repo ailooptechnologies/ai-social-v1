@@ -20,22 +20,22 @@ const handleLogin = () => {
       <form @submit.prevent="handleLogin" class="space-y-4">
         <div class="space-y-2">
           <label for="email" class="text-sm font-medium">Email</label>
-          <input
+          <Input
             id="email"
             v-model="email"
             type="email"
-            class="w-full p-2 rounded-md border bg-background"
+            placeholder="Enter your email"
             required
           />
         </div>
         
         <div class="space-y-2">
           <label for="password" class="text-sm font-medium">Password</label>
-          <input
+          <Input
             id="password"
             v-model="password"
             type="password"
-            class="w-full p-2 rounded-md border bg-background"
+            placeholder="Enter your password"
             required
           />
         </div>

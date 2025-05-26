@@ -25,33 +25,33 @@ const handleRegister = () => {
       <form @submit.prevent="handleRegister" class="space-y-4">
         <div class="space-y-2">
           <label for="name" class="text-sm font-medium">Name</label>
-          <input
+          <Input
             id="name"
             v-model="name"
             type="text"
-            class="w-full p-2 rounded-md border bg-background"
+            placeholder="Enter your name"
             required
           />
         </div>
 
         <div class="space-y-2">
           <label for="email" class="text-sm font-medium">Email</label>
-          <input
+          <Input
             id="email"
             v-model="email"
             type="email"
-            class="w-full p-2 rounded-md border bg-background"
+            placeholder="Enter your email"
             required
           />
         </div>
         
         <div class="space-y-2">
           <label for="password" class="text-sm font-medium">Password</label>
-          <input
+          <Input
             id="password"
             v-model="password"
             type="password"
-            class="w-full p-2 rounded-md border bg-background"
+            placeholder="Enter your password"
             required
           />
         </div>
